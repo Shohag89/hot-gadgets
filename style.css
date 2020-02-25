@@ -1,3 +1,12 @@
+body {
+    margin: 100px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+body p{
+   
+    color: lightgrey;
+}
 .gray-bg{
     background-color: white;
 }
@@ -11,4 +20,19 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.ornge-bg {
+    color: orange;
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.container-phone {
+    margin-top: 100px;
+}
+.container-laptop {
+    margin-top: 100px;
 }
