@@ -1,7 +1,13 @@
+.container {
+    background-color: whitesmoke;
+}
+
 body {
     margin: 100px;
     margin-top: 0px;
     font-family: sans-serif;
+    background-image: url("images/watermark.png");
+    background-repeat: no-repeat; 
 }
 body p{
    
@@ -35,4 +41,35 @@ body p{
 }
 .container-laptop {
     margin-top: 100px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #0000ff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+    background-color: #ffff99;
+}
+footer {
+    text-align: center;
+    padding: 15px 25px;
+    background-color: antiquewhite;
+}
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
 }
